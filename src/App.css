@@ -1,0 +1,53 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: lightgray;
+  display: flex;
+  gap: 10px;
+}
+
+.sidebar-container {
+  width: 20%;
+  padding: 10px 30px;
+  background-color: gray;
+}
+
+.content-container {
+  width: 80%;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-column {
+  width: 100%;
+  height: 100%;
+}
+
+.link-elements {
+  padding: 20px 0px;
+}
+
+.menu-items {
+  display: flex;
+  gap: 5px;
+  padding: 4px 0px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.menu-names {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.rotate {
+  transform: rotate(0deg) !important;
+  transition: transform 0.5s ease-in-out;
+}
+
+.arrow-span {
+  transform: rotate(-90deg);
+  transition: transform 0.5s ease-in-out;
+}
